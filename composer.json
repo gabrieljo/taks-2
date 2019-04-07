@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Controller\\":"Controller",
+            "Traits\\":"traits"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "slim/slim": "^3.12"
+    }
+}
